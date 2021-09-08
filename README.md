@@ -1610,7 +1610,7 @@ _You can enable the following settings in Xcode by running [this script](resourc
     func distance(to: Galaxy) -> AstronomicalUnit {
       …
     }
-    func numberOfPlanets(in: SolarSystem) -> Int {
+    func contains(_ solarSystem: SolarSystem) -> Bool {
       …
     }
   }
@@ -1627,7 +1627,7 @@ _You can enable the following settings in Xcode by running [this script](resourc
       …
     }
 
-    func numberOfPlanets(in: SolarSystem) -> Int {
+    func contains(_ solarSystem: SolarSystem) -> Bool {
       …
     }
   }
